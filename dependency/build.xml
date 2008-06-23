@@ -4,7 +4,6 @@
         Dependency - add description
     </description>
 
-    <property environment="env" />
     <property name="project.root" location="${basedir}/.." />
 
     <import file="${project.root}/build-delegates.xml" />

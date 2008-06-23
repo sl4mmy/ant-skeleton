@@ -4,7 +4,6 @@
         Skeleton - add description
     </description>
 
-    <property environment="env" />
     <property name="project.root" location="${basedir}" />
 
     <!-- Add each subproject's build file here, in order of dependencies (dependent subprojects after their dependencies)-->
