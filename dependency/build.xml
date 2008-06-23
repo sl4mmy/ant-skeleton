@@ -6,8 +6,8 @@
 
     <property name="project.root" location="${basedir}/.." />
 
-    <import file="${project.root}/build-delegates.xml" />
     <import file="${project.root}/build-properties.xml" />
+    <import file="${project.root}/build-delegates.xml" />
     <import file="build-paths.xml" />
 
     <target name="clean" depends="-clean" description="--> Cleans all build artifacts and temporary files" />
