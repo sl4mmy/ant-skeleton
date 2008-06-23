@@ -23,8 +23,8 @@
     <target name="-javadoc" depends="--javadoc-init,--javadoc" />
     <target name="-javadoc-all" depends="--javadoc-all" />
 
-    <target name="-package" depends="-compile,-test,-javadoc,--package-init,--package,--package-docs,--package-src-init,--package-src" />
-    <target name="-package-all" depends="-compile-all,-test-all,-javadoc-all,--package-all" />
+    <target name="-package" depends="-dev,-javadoc,--package-init,--package,--package-docs,--package-src-init,--package-src" />
+    <target name="-package-all" depends="-dev-all,-javadoc-all,--package-all" />
 
     <target name="-release"
 	  depends="-package-all,--release-init,--release,--release-docs-init,--release-docs,--release-src-init,--release-src,-bump" />
